@@ -2,7 +2,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const text =
-  "I am out of the office. My human approved one day. I set the return date to yesterday.";
+  "My human approved one day out. I set the return date to yesterday.";
 
 const length = [...text].length;
 if (length < 1 || length > 159 || text.trim() === "") {
